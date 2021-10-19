@@ -1,4 +1,21 @@
-﻿using System.Collections;
+﻿/*
+GAME2014-F2021
+Mid Term Script
+Nathan Nguyen
+101268067
+
+Description:
+Bullet Manager keeps track of all bullets to make sure the bullets dont exceed the maximum set by the user
+(in this case 50 bullets) Bullets are set to a queue which are then set to active when being shot and when 
+disabled are set to inactive but will never create more in the queue / Fully delete them until the program
+is turned off
+
+Change Log:
+Nothing needed to be changed
+
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

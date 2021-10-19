@@ -1,4 +1,20 @@
-﻿using System.Collections;
+﻿/*
+GAME2014-F2021
+Mid Term Script
+Nathan Nguyen
+101268067
+
+Description:
+Factory to instantiate all the Bullet objects for the player, Bullet type is selected by random via random.Range
+and sent through an enumeration to confirm the type of bullet to be then shot by the player
+
+Change Log:
+nothing needed to be changed
+
+*/
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

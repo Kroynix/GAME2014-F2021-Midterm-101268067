@@ -1,11 +1,26 @@
-﻿using System.Collections;
+﻿/*
+GAME2014-F2021
+Mid Term Script
+Nathan Nguyen
+101268067
+
+Description:
+General Bullet Behaviour, Moves the bullet along the Horizontal Axis
+
+Change Log:
+Changed verticals -> horizontals and changed the Vector3's to reflect Horizontal Movement
+
+*/
+
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class BulletController : MonoBehaviour, IApplyDamage
 {
-    public float verticalSpeed;
-    public float verticalBoundary;
+    public float horizontalSpeed;
+    public float horizontalBoundary;
     public BulletManager bulletManager;
     public int damage;
     
@@ -24,12 +39,12 @@ public class BulletController : MonoBehaviour, IApplyDamage
 
     private void _Move()
     {
-        transform.position += new Vector3(verticalSpeed, 0.0f, 0.0f) * Time.deltaTime;
+        transform.position += new Vector3(horizontalSpeed, 0.0f, 0.0f) * Time.deltaTime;
     }
 
     private void _CheckBounds()
     {
-        if (transform.position.x > verticalBoundary)
+        if (transform.position.x > horizontalBoundary)
         {
             bulletManager.ReturnBullet(gameObject);
         }

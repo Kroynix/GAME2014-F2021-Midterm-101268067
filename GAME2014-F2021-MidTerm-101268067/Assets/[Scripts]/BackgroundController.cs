@@ -1,4 +1,20 @@
-﻿using System.Collections;
+﻿/*
+GAME2014-F2021
+Mid Term Script
+Nathan Nguyen
+101268067
+
+Description:
+Move the gameobject in a direction until it reaches a boundary
+change the objects transform to its initial position.
+
+Change Log:
+Added Horizontal and Vertical Spawn locations to pick specifically where to spawn
+HorizontalBoundary kept as the boundary
+
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

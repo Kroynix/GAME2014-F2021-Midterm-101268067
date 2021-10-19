@@ -1,4 +1,18 @@
-﻿using System.Collections;
+﻿/*
+GAME2014-F2021
+Mid Term Script
+Nathan Nguyen
+101268067
+
+Description:
+Simple Enemy behaviour
+
+Change Log:
+Changed verticals -> horizontals and changed the Vector3's to reflect Horizontal Movement
+
+*/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

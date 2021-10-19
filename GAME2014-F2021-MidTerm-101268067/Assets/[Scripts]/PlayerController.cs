@@ -1,4 +1,18 @@
-﻿using System.Collections;
+﻿/*
+GAME2014-F2021
+Mid Term Script
+Nathan Nguyen
+101268067
+
+Description:
+Control the player, Movement based off of Clicks in relation to Player Ship Location
+Bullet Firing Automatically
+
+Change Log:
+Changed verticals -> horizontals and changed the Vector3's to reflect Horizontal Movement
+
+*/
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using UnityEditor;
